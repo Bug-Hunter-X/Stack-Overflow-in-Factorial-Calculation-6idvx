@@ -1,0 +1,3 @@
+# Stack Overflow in Hack Factorial Function
+
+This repository demonstrates a common error in recursive functions: stack overflow due to unbounded recursion.  The `foo` function calculates factorials.  It works correctly for non-negative integers but crashes with a stack overflow when given a negative input because the recursion never terminates. The solution shows how to handle this case by adding input validation.
